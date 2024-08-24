@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e1420;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Conteúdo Header */
+.topo{
+    margin: auto;
+    display: flex;
+    background-color: #030712;
+    width: 80%;
+    max-width: 1100px;
+    color: aliceblue;
+    align-items: center;
+}
+
+.topo-logo__h1{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.topo-menu{
+    flex-grow: 1;
+}
+.topo-menu__ul{ 
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 28px;
+}
+
+.topo-menu__a{
+    color: aliceblue;
+    margin-left: 5px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.topo-menu__a:hover{
+    color: black;
+    background-color: rgb(193, 245, 5);
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.topo-menu__a:focus{
+    color: black;
+    background-color: rgb(193, 245, 5);
+    padding: 15px;
+    border-radius: 7px;
+}
+
+/* Conteúdo Main */
+.principal-title{
+    text-align: center;
+}
+
+.principal-title__h1{
+    margin: 90px 0 150px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 2px 6px rgba(0,0,0,0,8)
+}
+
+.principal-cards{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.principal-cards__base{
+    display: flex;
+    flex-direction: column;
+    background-color: #1e293b;
+    flex-basis: 330px;
+    height: 400px;
+}
+
+.principal-cards__h3title{
+    padding: 10px 10px 0;
+    margin-left: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+.principal-cards__base hr{
+    color: rgb(193, 245, 5);
+    width: 85%;
+}
+ .principal-cards__paragraphp{
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-left: 13px;
+ }
+
+ .principal-cards__paragraphp b{
+    font-size: 10px;
+ }
+
+ .principal-cards__list{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 0px;
+    flex-grow: 1;
+ }
+
+ .principal-cards__list li::marker{
+    color: rgb(193, 245, 5);
+ }
+
+ .principal-cards__base a{
+    text-align: center;
+    padding: 8px;
+    margin: 60px 30px 15px;
+    border-radius: 6px;
+    background-color: rgb(193, 245, 5);
+    text-decoration: none;
+    color: black;
+ }
+ .principal-cards__base a:hover{
+    outline:2px solid rgb(193, 245, 5);
+    background-color: transparent;
+    color: white;
+ }
+
+/* Conteúdo Rodape */
+
+.rodape{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    background-color: #030712;
+    height: 100px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape h3{
+    font-size: 15px;
+}
