@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(215, 186, 245);
+}
+
+h1{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+}
+
+.container{
+    box-shadow: 0.2em 0.2em 0.6em ;
+    text-align: center;
+    margin: auto;
+    border-radius: 5rem;
+    background-color: aliceblue;
+    width: 30%;
+}
+
+.container img{
+    margin-top: 2rem;
+    width: 40rem;
+    height: 40rem;
+}
+
+.buttons{
+    gap: 2rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bt-itens{
+    color: white;
+    background-color: #9333ea;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+.bt-itens:hover{
+    background-color: #581c87;
+}
+
+
