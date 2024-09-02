@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap'); 
+html{
+    font-size: 62.5%;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.2rem;
+}
+
+body{
+    background-image: url(/images/1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: 0 0.2rem 0.6rem black;
+    letter-spacing: 0.3rem;
+}
+.relogio{
+    border-radius: 1rem;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 28%;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    gap: 1rem;
+    box-shadow: 0 0.2rem 0.6rem black;
+}
+
+.item{
+    display: flex;
+    color: white;
+    background-color: rgb(15 23 42);
+    width: 10rem;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem ;
+    flex-direction: column;
+}
+
+.text_hr{
+    font-size: 1.5rem;
+}
+
+.text_min{
+    font-size: 1.5rem;
+}
+
+.text_sec{
+    font-size: 1.5rem;
+}
