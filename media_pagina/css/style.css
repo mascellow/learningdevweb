@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(30 41 59);
+    color: whitesmoke;
+    background-image: url(/images/escola.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+
+.title-sist{
+    margin-top: 2rem;
+    font-size: 3rem;
+    letter-spacing: .7rem;
+    text-shadow: 0 2px 5px black;
+    margin: 7rem 0 5rem 0;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 4rem;
+    padding: 3rem;
+    color: black;
+    width: 45rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 3px 3px 10px black;
+}
+.central h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.central div{
+    margin-bottom: 2rem;
+}
+
+.central button{
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 1.8rem;
+    margin: 1.5rem;
+    padding: 0 1.8rem;
+    cursor: pointer;
+}
+
+.central button:hover{
+    background-color: rgb(175, 235, 57);
+}
+
+.central input{
+    background: rgb(209, 209, 209);
+    border: none;
+    outline: none;
+}
+
+.central input:focus{
+    background-color: yellowgreen;
+}
